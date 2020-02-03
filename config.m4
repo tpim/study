@@ -44,7 +44,7 @@ if test "$PHP_STUDY" != "no"; then
 
     #将所有需要编译的文件已字符串的形式储存到study_source_file中
     study_source_file="\
-        study.c \
+        study.cc \
         ${STUDY_ASM_DIR}make_${STUDY_CONTEXT_ASM_FILE} \
         ${STUDY_ASM_DIR}jump_${STUDY_CONTEXT_ASM_FILE}
     "
